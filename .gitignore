@@ -13,3 +13,8 @@ hs_err_pid*
 target/
 .idea/
 *.iml
+
+.gitignore
+build.gradle
+build/
+src/main/AndroidManifest.xml
