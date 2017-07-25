@@ -567,7 +567,7 @@ public class ResourceConverter {
 				// Never cache relationship objects
 				resourceCache.lock();
 				try {
-                    return readObject(relationshipDataNode, type, true);
+					return readObject(relationshipDataNode, type, true);
 				} finally {
 					resourceCache.unlock();
 				}
